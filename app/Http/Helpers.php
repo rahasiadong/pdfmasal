@@ -53,7 +53,7 @@ function permalink()
 	$hitungtitik = explode('.',$_SERVER['SERVER_NAME']);
 	$data['url'] = 'https://'.$_SERVER['SERVER_NAME'];
 	$data['keyword-url'] = 'dir/'.str_replace(' ','-',$hitungtitik[0]); 
-	$data['jumlahKeyword'] = 999;
+	$data['jumlahKeyword'] = "999";
 	return $data;
 }
 
